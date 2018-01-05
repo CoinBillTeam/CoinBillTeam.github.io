@@ -1,0 +1,155 @@
+body {
+    background-image: url('/img/background.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menu {
+    height: 369px;
+}
+
+.menu-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%
+}
+
+.coming {
+    height: 288px;
+    background-color: #efd251;
+    background-image: url('/img/logo-outline.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 70%
+}
+
+.coming-title {
+    font-size: 24pt;
+    font-family: Swagger;
+    color: #131313
+}
+
+.coming-content {
+    width: 796px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+    font-family: 'Nanum Gothic';
+    color: #131313;
+    font-weight: bold;
+}
+
+.introduce {
+    height: 736px;
+    background-color: white;
+}
+
+.introduce-layer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 796px;
+}
+
+.introduce-title {
+    width: 796px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Swagger;
+    font-size: 18pt;
+}
+
+.introduce-content {
+    width: 796px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12pt;
+    font-family: 'Nanum Gothic'
+}
+
+@font-face {
+    font-family: Swagger;
+    src: url('/SDSwaggerTTF.ttf') format('woff')
+}
+
+@import url(http://api.mobilis.co.kr/webfonts/css/?fontface=NanumGothicWeb); 
+
+@media only screen and (max-width: 320px) {
+    /** this media is really small? */
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 680px) {
+    /** this media query for mobile view */
+    .menu {
+        height: 369px;
+    }
+
+    .coming {
+        height: 100%;
+    }
+
+    .coming-title {
+        margin-top: 40px;
+    }
+
+    .coming-content {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    .introduce {
+        height: 100%;
+    }
+
+    .introduce-layer{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .introduce-title {
+        width: 100%;
+    }
+
+    .introduce-content {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1024px) {
+    /** this media query for tablet view */
+    .coming {
+        width: 100%;
+    }
+
+    .coming-title {
+        margin-top: 40px;
+    }
+
+    .coming-content {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .introduce-layer {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .introduce-title {
+        width: 100%;
+    }
+
+    .introduce-content {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+}
